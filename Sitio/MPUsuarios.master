@@ -1,0 +1,55 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MPUsuarios.master.cs" Inherits="MPUsuarios" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            height: 26px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table style="width: 100%;">
+            <tr>
+                <td class="auto-style1">
+                    &gt;<asp:LinkButton ID="LinkButton1" runat="server" PostBackUrl="~/ABMUsuarios.aspx">ABMUsuarios</asp:LinkButton>
+                </td>
+                <td class="auto-style1">&gt;<asp:LinkButton ID="lnkCategoria" runat="server" PostBackUrl="~/ABMCategorias.aspx">AMBCategorias</asp:LinkButton>
+                </td>
+                <td class="auto-style1">&gt;<asp:LinkButton ID="lnkJuegos" runat="server" PostBackUrl="~/ABMJuegos.aspx">AMBJuegos</asp:LinkButton>
+                </td>
+                <td class="auto-style1">&gt;<asp:LinkButton ID="lnkAltaPregunta" runat="server" PostBackUrl="~/AltaPreguntas.aspx">Alta Pregunta</asp:LinkButton>
+                </td>
+                <td class="auto-style1">&gt;<asp:LinkButton ID="lnkManejoPreguntas" runat="server" PostBackUrl="~/ManejoPreguntasDeJuego.aspx">Manejo de Preguntas</asp:LinkButton>
+                </td>
+                <td class="auto-style1">&gt;<asp:LinkButton ID="lnkListados" runat="server" PostBackUrl="~/ListadosSinAsignacion.aspx">Listados Sin Asignacion</asp:LinkButton>
+                </td>
+                <td class="auto-style1">
+                    <asp:Button ID="btnDeslogueo" runat="server" OnClick="btnDeslogueo_Click" Text="Desloguearse" />
+                </td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+        </table>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
