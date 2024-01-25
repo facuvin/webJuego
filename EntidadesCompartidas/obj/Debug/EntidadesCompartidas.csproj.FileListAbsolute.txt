@@ -1,0 +1,4 @@
+C:\Users\Facu Viñales\Desktop\Clases bios\Segundo\PROYECTO FINAL\Solucion\ProyectoFinal\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.dll
+C:\Users\Facu Viñales\Desktop\Clases bios\Segundo\PROYECTO FINAL\Solucion\ProyectoFinal\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.pdb
+C:\Users\Facu Viñales\Desktop\Clases bios\Segundo\PROYECTO FINAL\Solucion\ProyectoFinal\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.dll
+C:\Users\Facu Viñales\Desktop\Clases bios\Segundo\PROYECTO FINAL\Solucion\ProyectoFinal\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.pdb
